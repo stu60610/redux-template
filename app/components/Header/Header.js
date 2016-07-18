@@ -7,7 +7,7 @@ import Button from '../Button/Button.js';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div className={style.fullscreen}>
         Header
       </div>
     );

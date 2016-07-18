@@ -1,4 +1,5 @@
-const path = require("path");
+const path = require('path');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -30,5 +31,6 @@ module.exports = {
         test: /\.css$/,
         loader: "style-loader!css-loader?modules&localIdentName=[path][name]-[local]-[hash:base64:5]!postcss-loader"
     }],
-  }
+  },
+  postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ]
 }
