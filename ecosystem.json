@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "cwd": "app",
+    "name": "redux-template",
+    "script": "run.js",
+    "env": {
+      "NODE_ENV": "development",
+      "DEBUG": "redux-template:*",
+      "PORT": "8080",
+    },
+    "next_gen_js": true
+  }]
+}

@@ -1,0 +1,7 @@
+@value colors: "../../themes/colors.css";
+@value blue, red, green from colors;
+
+.btn {
+  color: red;
+  background-color: blue;
+}
