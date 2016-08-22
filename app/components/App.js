@@ -2,9 +2,9 @@ import React, {
   Component
 } from 'react';
 
-import Header from './Header/Header.js';
-import Button from './Button/Button.js';
-import Footer from './Footer/Footer.js';
+import Header from './Header/Header';
+import Button from './Button/Button';
+import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +16,6 @@ class App extends Component {
       </div>
     );
   }
-};
+}
 
 export default App;
