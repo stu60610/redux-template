@@ -13,6 +13,7 @@
 - [ ] i18n
 - [ ] Ramba (https://github.com/ramda/ramda)
 - [ ] Immutable (https://github.com/facebook/immutable-js/)
+- [ ] react-router-redux (https://github.com/reactjs/react-router-redux)
 - [ ] redux-saga (https://github.com/yelouafi/redux-saga)
 - [ ] reactotron (https://github.com/reactotron/reactotron)
 - [ ] reduxsauce (https://github.com/skellock/reduxsauce)
