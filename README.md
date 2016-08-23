@@ -21,6 +21,7 @@
 - [ ] apisauce (https://github.com/skellock/apisauce)
 - [ ] redux-logger (https://github.com/evgenyrodionov/redux-logger)
 - [ ] faker.js (https://github.com/marak/Faker.js/)
+- [ ] normalizr (https://github.com/paularmstrong/normalizr)
 
 
 ## Testing Feature
