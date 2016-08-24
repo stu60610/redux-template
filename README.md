@@ -12,11 +12,11 @@
 ## Feature
 - [ ] i18n
 - [ ] Ramba (https://github.com/ramda/ramda)
-- [ ] Immutable (https://github.com/facebook/immutable-js/)
+- [x] Immutable (https://github.com/rtfeldman/seamless-immutable)
 - [ ] react-router-redux (https://github.com/reactjs/react-router-redux)
 - [ ] redux-saga (https://github.com/yelouafi/redux-saga)
 - [ ] reactotron (https://github.com/reactotron/reactotron)
-- [ ] reduxsauce (https://github.com/skellock/reduxsauce)
+- [x] reduxsauce (https://github.com/skellock/reduxsauce)
 - [ ] redux-persist (https://github.com/rt2zz/redux-persist)
 - [ ] apisauce (https://github.com/skellock/apisauce)
 - [ ] redux-logger (https://github.com/evgenyrodionov/redux-logger)
@@ -32,5 +32,6 @@
 - [ ] webdriverio (https://github.com/webdriverio/webdriverio/)
 
 ## Lint & Githook
+- [ ] githook
 - [ ] snazzy (https://github.com/feross/snazzy)
 - [ ] standard (https://github.com/feross/standard)
