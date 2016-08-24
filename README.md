@@ -7,7 +7,7 @@
 - [x] babel, ES7 feature
 - [x] CSS Modules (https://github.com/css-modules/css-modules)
 - [x] webpack
-- [x] eslint
+
 
 ## Feature
 - [ ] i18n
@@ -33,5 +33,6 @@
 
 ## Lint & Githook
 - [ ] githook
+- [x] eslint
 - [ ] snazzy (https://github.com/feross/snazzy)
 - [ ] standard (https://github.com/feross/standard)
