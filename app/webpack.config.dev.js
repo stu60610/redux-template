@@ -17,6 +17,7 @@ const devConfig = {
   plugins: [
     new webpack.DefinePlugin({
       API_HOST: "'http://api.starbucks.rytass.com'",
+      ENV: "'__DEV__'",
     }),
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),

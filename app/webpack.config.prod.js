@@ -15,6 +15,7 @@ const prodConfig = {
   plugins: [
     new webpack.DefinePlugin({
       API_HOST: "'http://api.host.com'",
+      ENV: "'__PROD__'",
     }),
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.NoErrorsPlugin(),
