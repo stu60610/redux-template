@@ -13,7 +13,7 @@
 - [ ] i18n (https://github.com/yahoo/react-intl/)
 - [ ] Ramba (https://github.com/ramda/ramda)
 - [x] Immutable (https://github.com/rtfeldman/seamless-immutable)
-- [ ] react-router-redux (https://github.com/reactjs/react-router-redux)
+- [x] react-router-redux (https://github.com/reactjs/react-router-redux)
 - [ ] redux-saga (https://github.com/yelouafi/redux-saga)
 - [x] reduxsauce (https://github.com/skellock/reduxsauce)
 - [ ] redux-persist (https://github.com/rt2zz/redux-persist)
