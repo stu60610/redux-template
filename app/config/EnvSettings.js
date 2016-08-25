@@ -1,6 +1,9 @@
 const SETTINGS = {
   useMockAPI: true,
-  reduxLogging: true,
+  reduxLogConfig: {
+    level: 'log',
+    collapsed: (getState, action) => (action.type.includes('@@router/')),
+  },
   env: ENV,
 };
 

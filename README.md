@@ -11,7 +11,6 @@
 
 ## Feature
 - [ ] i18n (https://github.com/yahoo/react-intl/)
-- [ ] Ramba (https://github.com/ramda/ramda)
 - [x] Immutable (https://github.com/rtfeldman/seamless-immutable)
 - [x] react-router-redux (https://github.com/reactjs/react-router-redux)
 - [ ] redux-saga (https://github.com/yelouafi/redux-saga)
@@ -19,7 +18,7 @@
 - [ ] redux-persist (https://github.com/rt2zz/redux-persist)
 - [ ] reactotron (https://github.com/reactotron/reactotron)
 - [ ] apisauce (https://github.com/skellock/apisauce)
-- [ ] redux-logger (https://github.com/evgenyrodionov/redux-logger)
+- [x] redux-logger (https://github.com/evgenyrodionov/redux-logger)
 - [ ] faker.js (https://github.com/marak/Faker.js/)
 - [ ] normalizr (https://github.com/paularmstrong/normalizr)
 

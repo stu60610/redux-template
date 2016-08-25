@@ -9,14 +9,15 @@ import {
 import {
   routerMiddleware,
 } from 'react-router-redux';
-import createSagaMiddleware from 'redux-saga';
 import createLogger from 'redux-logger';
 import settings from '../config/EnvSettings';
 import originReducer from '../reducers/';
+
+import createSagaMiddleware from 'redux-saga';
 import sagas from '../sagas/';
 
 
-const logger = createLogger();
+const logger = createLogger(settings.reduxLogConfig);
 const middlewares = [
   routerMiddleware(browserHistory),
 ];
