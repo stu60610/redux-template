@@ -27,6 +27,6 @@ app.listen(PORT, function(error) {
     debug(error);
     console.error(error);
   } else {
-    console.info('redux-template dev site listening on port %s', PORT)
+    console.info('redux-template dev site listening on port %s', PORT);
   }
 });

@@ -10,7 +10,7 @@ module.exports = {
     publicPath: '/static/'
   },
   resolve: {
-    extensions: [ '', '.js', '.jsx'],
+    extensions: ['', '.js', '.jsx'],
   },
   plugins: [],
   module: {
@@ -28,9 +28,11 @@ module.exports = {
         'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false',
       ],
     }, {
-        test: /\.css$/,
-        loader: "style-loader!css-loader?modules&localIdentName=[path][name]-[local]-[hash:base64:5]!postcss-loader"
+      test: /\.css$/,
+      loader: 'style-loader!css-loader?modules&localIdentName=[path][name]-[local]-[hash:base64:5]!postcss-loader'
     }],
   },
-  postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ]
-}
+  postcss: [
+    autoprefixer({ browsers: ['last 2 versions'] }),
+  ],
+};

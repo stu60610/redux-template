@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const config = require('./webpack.config.base.js');
+const config = require('./webpack.config.base');
 const path = require('path');
 
 const prodConfig = {

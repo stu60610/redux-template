@@ -9,10 +9,12 @@
   "plugins": [
     "react",
   ],
+  "env": {
+    "browser": true,
+  },
   "globals": {
-    "arcRequire": false,
-    "SERVICE_HOST": false,
-    "YT": false,
+    "API_HOST": false,
+    "ENV": false,
   },
   "parser": "babel-eslint",
   "extends": "airbnb",
@@ -22,6 +24,7 @@
     "max-len": [2, {
       "code": 120,
     }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-closing-bracket-location": [2, {
       "nonEmpty": "after-props",
       "selfClosing": "after-props",
