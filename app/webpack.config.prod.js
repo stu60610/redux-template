@@ -4,6 +4,7 @@ const path = require('path');
 
 const prodConfig = {
   entry: [
+    'babel-polyfill',
     'eventsource-polyfill',
     path.join(__dirname, './app.js'),
   ],

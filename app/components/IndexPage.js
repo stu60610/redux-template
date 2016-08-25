@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  Header,
-  Button,
-  Footer
-} from './Units/';
+import { Header, Button, Footer } from './Units/';
 
 const IndexPage = () => (
   <div>
