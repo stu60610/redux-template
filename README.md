@@ -19,6 +19,7 @@
 - [ ] reactotron (https://github.com/reactotron/reactotron)
 - [ ] apisauce (https://github.com/skellock/apisauce)
 - [x] redux-logger (https://github.com/evgenyrodionov/redux-logger)
+- [x] redux-devtools (https://github.com/gaearon/redux-devtools)
 - [ ] faker.js (https://github.com/marak/Faker.js/)
 - [ ] normalizr (https://github.com/paularmstrong/normalizr)
 

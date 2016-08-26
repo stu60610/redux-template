@@ -11,6 +11,8 @@ import {
 } from 'react-router-redux';
 import createLogger from 'redux-logger';
 import settings from '../config/EnvSettings';
+import DevTools from '../containers/DevTools';
+
 import originReducer from '../reducers/';
 
 import createSagaMiddleware from 'redux-saga';
@@ -23,20 +25,25 @@ const middlewares = [
 ];
 
 // const sagaMiddleware = createSagaMiddleware();
-
+let enhancers;
 if (settings.env === '__DEV__') {
   middlewares.push(logger);
+  enhancers = compose(
+    applyMiddleware(...middlewares),
+    DevTools.instrument()
+  );
+} else {
+  enhancers = compose(
+    applyMiddleware(...middlewares),
+  );
 }
 
 export default () => {
   let store = {};
-  const enhancers = compose(
-    applyMiddleware(...middlewares),
-  );
 
   store = createStore(
     originReducer,
-    enhancers
+    enhancers,
   );
 
   // sagaMiddleware.run(sagas);
