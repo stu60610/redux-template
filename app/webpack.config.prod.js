@@ -6,7 +6,7 @@ const prodConfig = {
   entry: [
     'babel-polyfill',
     'eventsource-polyfill',
-    path.join(__dirname, './app.js'),
+    path.join(__dirname, './entry.js'),
   ],
   output: {
     path: path.join(__dirname, '../build'),
