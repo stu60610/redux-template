@@ -10,7 +10,7 @@ export const Types = createTypes(`
 
 const loginRequest = (account, password) => ({ type: Types.LOGIN_ATTEMPT, account, password });
 
-const loginSuccess = (account) => ({ type: Types.LOGIN_SUCCESS, account });
+const loginSuccess = (userData) => ({ type: Types.LOGIN_SUCCESS, userData });
 
 const loginFailure = (errorCode) => ({ type: Types.LOGIN_FAILURE, errorCode });
 

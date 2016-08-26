@@ -1,7 +1,14 @@
-import { take, put, select } from 'redux-saga/effects';
-import * as StartUpActions from '../actions/StartUp';
+import { take } from 'redux-saga/effects';
+import { Types as StartUpTypes } from '../actions/StartUp';
 
 // process STARTUP actions
-export function* watchStartup() {
-
+function* watchStartup() {
+  yield take(StartUpTypes.STARTUP);
 }
+
+
+export {
+  watchStartup,
+};
+
+export default null;

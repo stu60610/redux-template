@@ -6,7 +6,9 @@ import settings from './config/EnvSettings';
 import DevTools from './containers/DevTools';
 import IndexPage from './components/IndexPage';
 import LandingPage from './components/LandingPage';
-import StartUpActions from './actions/StartUp';
+
+import { startup } from './actions/StartUp';
+import { getRepoRequest } from './actions/Repo';
 
 export default class App extends Component {
   static propTypes = {
@@ -15,7 +17,8 @@ export default class App extends Component {
 
   componentWillMount() {
     const { dispatch } = this.props.store;
-    dispatch(StartUpActions.startup());
+    dispatch(startup());
+    dispatch(getRepoRequest('wjwang'));
   }
 
   render() {

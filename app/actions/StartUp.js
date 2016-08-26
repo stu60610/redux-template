@@ -7,6 +7,6 @@ export const Types = createTypes(`
 
 const startup = () => ({ type: Types.STARTUP });
 
-export default {
+export {
   startup,
 };
