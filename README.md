@@ -10,7 +10,7 @@
 
 
 ## Feature
-- [ ] i18n (https://github.com/i18next/react-i18next)
+- [ ] i18n (http://i18next.com/docs/)
 - [x] Immutable (https://github.com/rtfeldman/seamless-immutable)
 - [x] react-router-redux (https://github.com/reactjs/react-router-redux)
 - [x] redux-saga (https://github.com/yelouafi/redux-saga)
