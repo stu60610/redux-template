@@ -6,7 +6,7 @@
 - [x] redux
 - [x] babel, ES7 feature
 - [x] CSS Modules (https://github.com/css-modules/css-modules)
-- [x] webpack
+- [x] webpack(todo chunk)
 
 
 ## Feature
