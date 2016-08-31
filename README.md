@@ -15,14 +15,13 @@
 - [x] react-router-redux (https://github.com/reactjs/react-router-redux)
 - [x] redux-saga (https://github.com/yelouafi/redux-saga)
 - [x] reduxsauce (https://github.com/skellock/reduxsauce)
-- [ ] redux-persist (https://github.com/rt2zz/redux-persist)
-- [ ] reactotron (https://github.com/reactotron/reactotron)
 - [x] axios (https://github.com/mzabriskie/axios)
 - [x] redux-logger (https://github.com/evgenyrodionov/redux-logger)
 - [x] redux-devtools (https://github.com/gaearon/redux-devtools)
+- [ ] redux-persist (https://github.com/rt2zz/redux-persist)
 - [ ] faker.js (https://github.com/marak/Faker.js/)
 - [ ] normalizr (https://github.com/paularmstrong/normalizr)
-
+- [ ] reactotron (https://github.com/reactotron/reactotron)
 
 ## Testing Feature
 - [ ] test (http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html#the-app)
@@ -32,7 +31,7 @@
 - [ ] webdriverio (https://github.com/webdriverio/webdriverio/)
 
 ## Lint & Githook
-- [ ] githook
 - [x] eslint
+- [ ] githook
 - [ ] snazzy (https://github.com/feross/snazzy)
 - [ ] standard (https://github.com/feross/standard)
