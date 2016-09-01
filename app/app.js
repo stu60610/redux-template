@@ -22,7 +22,7 @@ export default class App extends Component {
     dispatch(startup());
     dispatch(getRepoRequest('wjwang'));
     // 可使用 changeLanguage 強制轉換語系
-    i18n.changeLanguage('zh-TW');
+    i18n.changeLanguage('en');
   }
 
   render() {
