@@ -1,4 +1,4 @@
-const SETTINGS = {
+export const SETTINGS = {
   useMockAPI: false,
   reduxLogConfig: {
     level: 'log',
