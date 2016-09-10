@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 8080;
 const compiler = webpack(config);
 
 app.use(webpackDevMiddleware(compiler, {
-  noInfo: false,
+  noInfo: true,
   publicPath: config.output.publicPath,
   stats: {
     colors: true,
